@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div  className="contact-form-area">
                 
-                        <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                        <form method="POST" name="contact" data-netlify-recaptcha="true" data-netlify="true">
                             <div className="contact-form">
                                     <div className="col-md-10">
                                         <div className="row">
