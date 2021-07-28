@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div  className="contact-form-area">
                 
-                        <form method="POST" data-netlify-recaptha="true" data-netlify="true">
+                        <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
                             <div className="contact-form">
                                     <div className="col-md-10">
                                         <div className="row">
@@ -27,19 +27,19 @@ const Contact = () => {
                                                     <input type="text" placeholder="Phone number" name="phone"/>
                                                 </div>
 
-                                                
-                                                
-                                            </div>
-                                            <div className="col-md-6">
                                                 <div className="contact-input-box">
                                                     <input type="email" placeholder="Email address" name="email"/>
                                                 </div>
+                                                
+                                            </div>
+                                            <div className="col-md-6">
+                                                
                                                 
                                                 <div className="contact-input-box">
                                                     <textarea name="message" placeholder="Message"></textarea>
                                                 </div>
                                                 
-                                                <button>Send</button>
+                                                <button type="submit">Send</button>
                                             </div>
                                         </div>
                                     </div>
