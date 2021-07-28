@@ -1,0 +1,44 @@
+.logo img {
+    max-width: 120px;
+    /* border: 2px solid yellow; */
+    padding: 2px 4px;
+    border-radius: 6px;
+}
+.sideBar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.menus ul {
+    list-style: none;
+    padding: 0px;
+}
+.menus ul li {
+    margin: 15px 0px;
+    display: block;
+}
+.menus ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.menus ul li a:hover {
+    border-bottom: 1px solid yellow;
+    color: yellow;
+}
+
+.social-links a {
+    margin: 7px;
+}
+.social-links a svg{
+    color: rgb(77, 76, 76);
+    font-size: 20px;
+}
+.connect p {
+    color: teal;
+}

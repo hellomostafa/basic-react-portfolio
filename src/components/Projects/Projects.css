@@ -1,0 +1,46 @@
+.prevProject {
+ display: inline-block;
+}
+.prevProjects .title {
+    padding-left: 5%;
+    padding-bottom: 40px;
+}
+.prevPImg img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.prvPDetails {
+    text-align: center;
+}
+.prvPDetails h4 {
+    padding: 10px 0px 30px 0px;
+}
+.prvPDetails a {
+    margin: 10px;
+    padding: 7px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #FFC576;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #FFC576;
+    transition: .5s all;
+}
+.prvPDetails a:hover {
+    background-color: #f5c581f1;
+    color: black
+}
+.prevProjects>.swiper-container.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+@media (max-width: 760px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+    .prvPDetails a {
+        padding: 5px 10px;
+    }
+}
