@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div  className="contact-form-area">
                 
-                        <form action="#">
+                        <form action="POST" data-netlify="true">
                             <div className="contact-form">
                                     <div className="col-md-10">
                                         <div className="row">
@@ -19,12 +19,12 @@ const Contact = () => {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="contact-input-box">
-                                                    <input type="text" placeholder="Full name"/>
+                                                    <input type="text" placeholder="Full name" name="name"/>
                                                 </div>
                                                 
                                                 
                                                 <div className="contact-input-box">
-                                                    <input type="text" placeholder="Phone number"/>
+                                                    <input type="text" placeholder="Phone number" name="phone"/>
                                                 </div>
 
                                                 
@@ -32,11 +32,14 @@ const Contact = () => {
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="contact-input-box">
-                                                    <input type="email" placeholder="Email address"/>
+                                                    <input type="email" placeholder="Email address" name="email"/>
                                                 </div>
                                                 
                                                 <div className="contact-input-box">
-                                                    <textarea placeholder="Message"></textarea>
+                                                    <textarea name="message" placeholder="Message"></textarea>
+                                                </div>
+                                                <div className="field">
+                                                    <div data-netlify-recaptcha="true"></div>
                                                 </div>
                                                 <button>Send</button>
                                             </div>
