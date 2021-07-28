@@ -34,5 +34,19 @@ const projects = [
         live: "https://amirmostofaa.github.io/flight-booking/",
         img: "https://i.ibb.co/R0wwLYD/5.jpg"
     },
+    {
+        id: 6,
+        name: "Team Building",
+        github: "https://github.com/AmirMostofaa/team-build",
+        live: "https://team-build-76.netlify.app/",
+        img: "https://i.ibb.co/SV4HTf5/team.jpg"
+    },
+    {
+        id: 7,
+        name: "Team Tracker",
+        github: "https://github.com/AmirMostofaa/team-tracker",
+        live: "https://team-tracker-76.netlify.app/",
+        img: "https://i.ibb.co/bQr9YB0/track.png"
+    },
 ]
 export default projects;
